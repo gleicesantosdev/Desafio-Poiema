@@ -17,10 +17,16 @@
 }body{
     height: 200vh;
     background-color: white;
-   
+       
+}
 
-    
-}.interface{
+.cabecalho {
+    padding:30px;
+    display: flex;
+    align-items: center;
+}
+
+.interface{
     
     max-width: 500px;
   /*1 - topo , 2 lateral */

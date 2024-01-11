@@ -1,0 +1,363 @@
+
+/*ESTILO GERAL*/
+*{
+    font-family: 'Inter', sans-serif;
+}
+.container{
+   
+    margin: 0;
+    padding:0;
+    box-sizing: 0;
+    position: relative;
+    /*subir ou descer todos os cards*/
+    bottom: 300px;
+    columns: 4;
+    column-gap: 10px;
+}body{
+    height: 200vh;
+    background-color: white;
+   
+
+    
+}.interface{
+    
+    max-width: 500px;
+  /*1 - topo , 2 lateral */
+  margin: 0px  350px;
+}
+/*ESTILO CARDS*/
+
+.cards{
+padding: 150px 0px;
+background-color:#D5FAFC;
+position: relative;
+height: 30%;
+
+
+}
+
+/*ESTILO 1º CARD*/
+.box{
+    width: 250px;
+    padding: 20px 50px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border: 0 solid gray;
+    break-inside: avoid;
+    position: relative;
+    border-radius: 5px;
+    right: 70px;
+    top: 85px;
+
+    box-shadow: 0 0 4px #bfbfbf70;
+
+ /*   float: left;
+    margin: 10px;*/
+}
+
+/*ESTILO CONJUNTO (2 MENORES) CARD*/
+.box-2{
+    width: 400px;
+    padding: 20px 10px;
+    background-color: rgb(255, 255, 255);
+    border: 0 solid gray;
+    margin-bottom: 5px;
+    break-inside: avoid;
+    position: relative;
+    /*tag coloca pro lado conjuto box-2*/
+    right: 67px;
+    border-radius: 5px;
+
+    box-shadow: 0 0 4px #bfbfbf70;
+
+
+ /*   float: left;
+    margin: 10px;*/
+}
+.box img {
+    width: 40%;
+    height: 40%;
+    position: relative;
+    right: 5px;
+}
+
+.box-2 img {
+   
+
+    width: 30%;
+    height: 30%;
+    position: relative;
+    right: 15px;
+}
+/*ESTILO 3º CARD (MENOR)*/
+.menor{
+    width: 300px;
+    top:330px;
+    right: 428px;
+    padding: 20px 50px;
+
+  
+   
+ /*   float: left;
+    margin: 10px;*/
+
+/*ESTILO 2º CARD (MÉDIO)*/
+}.maior{
+    padding: 20px 50px;
+
+
+/*TEXTO CARDS*/
+}.box-text{
+    position: relative;
+    left: 20px;
+}.box-text h2{
+    font-size: 15px;
+    position: relative;
+    top: 14px;
+}.box-text p{
+    font-size: 18px;
+
+
+
+
+}.img img{
+    position: relative;
+    height: 5%;
+    width: 5%;
+    top: 70px;
+}.img2 img{
+    position: relative;
+    height: 4%;
+    width: 4%;
+    top: 78px;
+}.img3 img{
+    position: relative;
+    height: 4%;
+    width: 4%;
+    top: 70px;
+}.asf img{
+    position: relative;
+    bottom: 315px;
+    left: 100px;
+    height: 10%;
+    width: 10%;
+}.texto-principal{
+padding: 0px 200px;
+position: relative;
+z-index: 1;
+bottom: 90px;
+
+}
+.texto-principal h2{
+    font-size: 40px;
+
+}
+.texto-principal p{
+    position: relative;
+    bottom: 20px;
+}
+.texto-principal span{
+display: block;
+}
+
+/*ESTILO DADOS*/
+.dados{
+    padding: 5% 0px;
+    background-color:white;
+    position: relative;
+    height: 18%;   
+}
+.dados-text-direita{
+    position: relative;
+    right: 220px;
+    bottom: 35px;
+
+}.dados-text-direita p{
+position: relative;
+font-size: 18px;
+bottom: 20px;
+}
+.dados-text-direita h2{
+    font-size: 40px;
+}
+.dados-text-direita span{
+    display: block;
+}
+.numeros2 img{
+    position: relative;
+    max-width:500px;
+    max-height:60px;
+    width: auto;
+    height: auto;
+   
+    margin: 45px 0px; /* adicionamos margem (espaçamento) */
+
+    
+    columns: 1;
+    bottom: 475px;
+    left: 700px;
+    display: flex;
+    flex-direction: column;
+}.numeros img{
+    position: relative;
+    max-width:500px;
+    max-height:60px;
+    width: auto;
+    height: auto;
+
+    margin: 45px 40px; /* adicionamos margem (espaçamento) */
+
+    
+    columns: 1;
+    bottom: 260px;
+    left: 350px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/*ESTILO INTEGRAÇÃO*/
+
+.integracao
+
+{
+    padding: 7% 0px;
+    background-color:white;
+    position: relative;
+    height: 10%;   
+}.integracao-txt{
+    position: relative;
+    right: 220px;
+    bottom: 20px;
+
+}.integracao-txt h2{
+    font-size: 40px;
+
+}.integracao-txt span{
+    display: block;
+
+}.integracao-txt p{
+    position: relative;
+    font-size: 18px;
+    bottom: 20px; 
+    
+}.integracao-img img{
+    position: relative;
+    width: 65%;
+    
+    left: 55%;
+    bottom: 340px; 
+}
+
+
+
+/*ESTILO GERENCIE*/
+.gerencie{
+    padding: 11% 0px;
+    background-color:#1DB5BE;
+    position: relative;
+    height: 20%;   
+}.gerencie-txt{
+    position: relative;
+    right: 220px;
+    bottom: 20px;
+
+}.gerencie-txt h2{
+    font-size: 38px;
+}.gerencie-txt span{
+    display: block;
+
+}.gerencie-txt p{
+    position: relative;
+    bottom: 20px; 
+    
+}.obter-app h3{
+    position: relative;
+    right: 220px;
+    bottom: 20px;
+
+}.obter-img img{
+    position: relative;
+    right: 30%;
+    width: 25%;
+
+
+}.oneiph img{
+    position: absolute;
+    max-width: 340px;
+    height: auto;
+    
+
+    margin: 0px 40px; /* adicionamos margem (espaçamento) */
+}.oneiph2 img{
+    position: absolute;
+    right: 4%;
+    bottom: 0px;
+    max-width: 310px;
+    height: auto;
+    
+}.ip img{
+    max-width: 310px;
+
+    position: absolute;
+    right: 32%;
+    bottom: 197px;
+}
+
+/*ESTILO FOOTER*/
+footer{
+    padding: 7% 0px;
+    background-color:#000000;
+    position: relative;
+    height: 10%;  
+    color: white;
+}footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+
+}.linha-one{
+    position: relative;
+    bottom: 20px;
+    
+}.linha-one a{
+display: inline-block;
+align-items: center;
+justify-content: space-between;
+padding: 0px 10px;
+
+
+}.linha-two a{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}.direita-footer p{
+    padding: 0px 10px;
+
+}.direita-footer{
+    position: relative;
+    right: 35%; 
+    top: 10px;
+}
+
+/*LADO ESQUERDO FOOTER*/
+.esquerda-footer {
+    position: relative;
+    left: 110%;
+    bottom: 160px;
+
+}
+.esquerda-footer h3 {
+    font-weight: 400;
+ }.google-store img{
+    width: 35%;
+    margin: 0px 0px;
+    display: block;
+ }.logo-footer img{
+    width: 5%;
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+ }

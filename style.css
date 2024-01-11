@@ -10,21 +10,119 @@
     padding:0;
     box-sizing: 0;
     position: relative;
-    /*subir ou descer todos os cards*/
+
     bottom: 300px;
     columns: 4;
     column-gap: 10px;
-}body{
+}
+
+body{
     height: 200vh;
     background-color: white;
        
 }
 
-.cabecalho {
-    padding:30px;
-    display: flex;
-    align-items: center;
+body, ul, h2, h6 {
+    margin: 0;
+    padding: 0;
 }
+
+
+header .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.cabecalho-menu-item {
+    margin-left: 20px;
+    text-decoration: none; 
+    color: #111827 ; 
+}
+
+.logo, .play-store, .app-store {
+   height: 40px; 
+   width:auto; 
+}
+
+
+main .conteudo {
+   display:flex; 
+   padding:50px; 
+}
+
+.column-1, .column-2{
+   flex-basis:50%; 
+}
+
+.conteudo-inicial{
+   font-size: 30px; 
+   color: #111827;
+}
+.conteudo-inicial span{
+   color: #111827; 
+}
+.conteudo-inicial-menor{
+   font-size :18px; 
+   color: #374151;
+}
+.btn-comecar{
+   background-color:#6D55FF;
+   color:white;
+   padding :10px 20px;
+   border-radius: 9px;
+   text-decoration: none;
+}
+.logo-assistir,.barra-lilás-esquerda,.barra-azul-esquerda,
+.barra-lilás-direita,.barra-roxa-direita,.barra-azul-direita,
+.mockup-inicial{
+     max-width :100%; 
+     height:auto;
+}
+
+body, h2, h3, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo-inicial .logos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo-item {
+    margin: 0 10px;
+}
+
+
+.recursos {
+    padding: 40px;
+}
+
+.principal-personalizado,
+.principal-personalizado-paragrafo,
+.personalizado-texto,
+.personalizado-texto-item,
+.personalizado-texto-title,
+.personalizado-texto-paragrafo {
+    margin-bottom: 20px; 
+}
+
+.container-1-personalizados,
+.container-2-personalizados {
+   display: flex; 
+   justify-content: space-between; 
+   margin-bottom: 40px; 
+}
+
+.personalizado-logo, .personalizado-logo-item {
+   width: auto; 
+   height :50px; 
+}
+
 
 .interface{
     

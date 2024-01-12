@@ -43,6 +43,8 @@ body, ul, h2, h6 {
     align-items: center;
     width: 90%;
     justify-content: space-around;
+    font-size: 20px;
+    left: -20px;
 }
 
 .menu {
@@ -55,6 +57,7 @@ body, ul, h2, h6 {
     border: 1px solid red;
     display: flex;
     gap: 13px;
+    width: 10px;
 }
 
 .cabecalho-menu-item {
@@ -84,35 +87,46 @@ body, ul, h2, h6 {
 
 .mockup-inicial {
     position: relative;
-    bottom: -150px;
-    right: -5%;
+    bottom: -90px;
+    right: -30%;
     
 }
 
 .conteudo {
    display:flex; 
    flex-direction: row;
+   width: 90%;
 } 
 
 .conteudo-inicial{
-   font-size: 56px; 
+   font-size: 46px; 
    color: #111827;
-   font-weight: bold;
-   bottom: -150px;
+   bottom: -155px;
    position: relative;
-   
-}
-.conteudo-inicial span{
-   color: #111827; 
-}
-.conteudo-inicial-menor{
-    font-size: 16px;
-    color: #374151;
-    font-weight: normal;
-    padding-right: 150px;
-    margin-top: 20px;
+   padding: 90px;
+   right: -100px;
 
 }
+
+.conteudo-inicial-txt span{
+    bottom: -125px;
+   
+}
+
+
+.conteudo-inicial-menor-txt{
+    font-size: 25px;
+    position: relative;
+    bottom: -100px;
+    color: #374151;
+    padding: 10px;
+    width: 60%;
+    margin-left: -40px;
+    font-weight: 400;
+    right: -120px;
+    border: 1px solid red; 
+    }
+
 .btn-comecar{
    background-color:#6D55FF;
    color:white;
@@ -120,6 +134,13 @@ body, ul, h2, h6 {
    border-radius: 9px;
    text-decoration: none;
 }
+
+hr{
+    border-color: #f4f5f7;
+    width:90%;
+    size: 0.1px;  
+  }
+
 .logo-assistir,.barra-lilás-esquerda,.barra-azul-esquerda,
 .barra-lilás-direita,.barra-roxa-direita,.barra-azul-direita,
 .mockup-inicial{

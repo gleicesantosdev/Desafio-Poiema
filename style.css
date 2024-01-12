@@ -19,53 +19,99 @@
 body{
     height: 200vh;
     background-color: white;
-       
+    background-image: url(assets/Captura\ de\ tela\ 2024-01-11\ 201759.png);
+    background-repeat: no-repeat;
+    background-size: 100%;     
 }
+
+
 
 body, ul, h2, h6 {
     margin: 0;
     padding: 0;
 }
 
-
-header .cabecalho {
+.cabecalho-pai {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.cabecalho {
+    border: 1px solid red;
+    display: flex;
+    padding: 30px 0;
     align-items: center;
-    padding: 20px 50px;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.menu {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.btn-app {
+    border: 1px solid red;
+    display: flex;
+    gap: 13px;
 }
 
 .cabecalho-menu-item {
-    margin-left: 20px;
-    text-decoration: none; 
-    color: #111827 ; 
+    display: inline-block;
+    font-weight: 800;
+    color: #111827;
+    text-decoration: none;
+    margin-left: 40px;
 }
 
-.logo, .play-store, .app-store {
-   height: 40px; 
-   width:auto; 
+.play-store, .app-store {
+    display: inline-block;   
 }
 
+.column-1,
+.column-2 {
+    border: 1px solid red;
+}
 
-main .conteudo {
+.column-1{
+    width: 60%;
+}
+
+.column-2{
+    width: 40%;
+}
+
+.mockup-inicial {
+    position: relative;
+    bottom: -150px;
+    right: -5%;
+    
+}
+
+.conteudo {
    display:flex; 
-   padding:50px; 
-}
-
-.column-1, .column-2{
-   flex-basis:50%; 
-}
+   flex-direction: row;
+} 
 
 .conteudo-inicial{
-   font-size: 30px; 
+   font-size: 56px; 
    color: #111827;
+   font-weight: bold;
+   bottom: -150px;
+   position: relative;
+   
 }
 .conteudo-inicial span{
    color: #111827; 
 }
 .conteudo-inicial-menor{
-   font-size :18px; 
-   color: #374151;
+    font-size: 16px;
+    color: #374151;
+    font-weight: normal;
+    padding-right: 150px;
+    margin-top: 20px;
+
 }
 .btn-comecar{
    background-color:#6D55FF;
@@ -99,29 +145,40 @@ body, h2, h3, h6 {
 
 
 .recursos {
-    padding: 40px;
+    justify-content: center;
+    padding: 110px;
 }
 
-.principal-personalizado,
-.principal-personalizado-paragrafo,
-.personalizado-texto,
-.personalizado-texto-item,
-.personalizado-texto-title,
-.personalizado-texto-paragrafo {
-    margin-bottom: 20px; 
+.principal-personalizado{
+    justify-content: center;
+    
 }
 
-.container-1-personalizados,
-.container-2-personalizados {
-   display: flex; 
-   justify-content: space-between; 
-   margin-bottom: 40px; 
-}
+.personalizado-texto-title {
+     font-size: 24px; 
+     margin: 10px 0; 
+    }
 
-.personalizado-logo, .personalizado-logo-item {
-   width: auto; 
-   height :50px; 
-}
+.personalizado-texto-paragrafo { 
+        font-size: 16px; 
+        margin: 5px 0; 
+    }
+
+.personalizado-logo-item {
+     width: 100px; 
+     height: 100px; 
+     margin: 10px; 
+    }
+
+.container-1-personalizados, 
+.container-2-personalizados { 
+        display: flex; 
+        flex-direction: row;
+        align-items: center; 
+        padding: 20px; 
+      }
+
+
 
 
 .interface{

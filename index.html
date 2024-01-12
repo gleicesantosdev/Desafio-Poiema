@@ -16,18 +16,24 @@
   </head>
   <body>
 
-    <!-- CABEÇALHO-->
-    <header>
-      <div class="cabecalho">
+  <!-- CABEÇALHO-->
+  <header class="cabecalho-pai">
+    <div class="cabecalho">
+      <div class="menu">
+        <!-- menu cabecalho-->
         <img class="logo" src="../Desafio-Poiema/assets/Logo.svg" alt="logo Landify">
-           <a class="cabecalho-menu-item" href="#"> Recursos </a>
-            <a class="cabecalho-menu-item" href="#"> Preços  </a>
-              <a class="cabecalho-menu-item" href="#"> Carreiras  </a>
-               <a class="cabecalho-menu-item" href="#"> Ajuda </a>
-        <img class="play-store" src="../Desafio-Poiema/assets/Store badge.svg" alt="logo play store">
+          <a class="cabecalho-menu-item" href="#"> Recursos </a>
+          <a class="cabecalho-menu-item" href="#"> Preços  </a>
+          <a class="cabecalho-menu-item" href="#"> Carreiras  </a>
+          <a class="cabecalho-menu-item" href="#"> Ajuda </a>
+      </div>
+   <!-- botoes app cabecalho-->
+      <div class="btn-app">
+       <img class="play-store" src="../Desafio-Poiema/assets/Store badge.svg" alt="logo play store">
         <img class="app-store" src="../Desafio-Poiema/assets/Store badge (1).svg" alt="logo app store">
       </div>
-    </header>
+  </div>
+ </header>
     <!--FIM CABECALHO-->
 
   <!-- INICIO CONTEUDO-->
@@ -35,29 +41,41 @@
       <!-- inicio lado esquerdo conteudo inicial-->
       <section class="conteudo">
         <div class="column-1">
-          <h2 class="conteudo-inicial">
-            A maneira mais fácil de <span> gerenciar projetos </span> 
-          </h2>
-          <h6 class="conteudo-inicial-menor">
-            Desde as pequenas coisas até a visão geral, organiza o trabalho para que as equipes saibam o que fazer, por que é importante e como concluí-lo.
-          </h6>
-          <a class="btn-comecar" href="#">
-            Começar
-          </a>
-          <img class="logo-assistir" src="../Desafio-Poiema/assets/Icon.svg" alt="icone de play video">
-          <a class="btn-assistir-texto" href="#">
-            Assistir Vídeo 
-          </a>
+          <div class="conteudo-inicial">
+            <h2 class="conteudo-inicial-txt">
+              A maneira mais fácil de <span> gerenciar projetos </span> 
+            </h2>
+          </div>
+          <div class="conteudo-inicial-menor">
+            <h6 class="conteudo-inicial-menor-txt">
+              Desde as pequenas coisas até a visão geral, organiza o trabalho para que 
+              <span> equipes saibam o que fazer, por que é importante e como concluí-lo. </span>
+            </h6>
+          </div>
+          <div class="botoes">
+            <a class="btn-comecar" href="#">
+              Começar
+            </a>
+            <img class="logo-assistir" src="../Desafio-Poiema/assets/Icon.svg" alt="icone de play video">
+            <a class="btn-assistir-texto" href="#">
+              Assistir Vídeo 
+            </a>
+          </div>
+        <div class="container-barra">
           <img class="barra-lilás-esquerda" src="../Desafio-Poiema/assets/Left Band 2 (1).svg" alt="barra lilás">
-           <img class="barra-azul-esquerda" src="../Desafio-Poiema/assets/Left Band 1 (1).svg" alt="barra azul">
+          <img class="barra-azul-esquerda" src="../Desafio-Poiema/assets/Left Band 1 (1).svg" alt="barra azul">
+        </div>
            <!-- fim inicio lado esquerdo conteudo inicial-->
         </div>
         <!-- inicio lado direito conteudo inicial-->
         <div class="column-2">
-           <img class="mockup-inicial" src="../Desafio-Poiema/assets/Mobile.png" alt="celular apresentando plataforma">
-             <img class="barra-lilás-direita" src="../Desafio-Poiema/assets/Left Band 2 (1).svg" alt="barra lilás">
-               <img class="barra-roxa-direita" src="../Desafio-Poiema/assets/Right Band 2 (2).svg" alt="barra roxa">
-                 <img class="barra-azul-direita" src="../Desafio-Poiema/assets/Left Band 1 (1).svg" alt="barra azul">
+            <img class="mockup-inicial" src="../Desafio-Poiema/assets/Mobile.png" alt="celular apresentando plataforma">
+          <div class="barras-direita">
+            <img class="barra-lilás-direita" src="../Desafio-Poiema/assets/Left Band 2 (1).svg" alt="barra lilás">
+            <img class="barra-roxa-direita" src="../Desafio-Poiema/assets/Right Band 2 (2).svg" alt="barra roxa">
+            <img class="barra-azul-direita" src="../Desafio-Poiema/assets/Left Band 1 (1).svg" alt="barra azul">
+          </div>
+            
         </div>
          <!-- fim lado direito conteudo inicial-->
       </section>
@@ -80,7 +98,8 @@
         <div class="personalizados">
           <!--cabecalho introduçao recursos personalizados-->
           <h2 class="principal-personalizado"> Recursos Personalizados </h3>
-          <h6 class="principal-personalizado-paragrafo"> Lorem ipsum é um texto fictício comumente usado para demonstrar elementos gráficos de um documento ou apresentação visual. 
+          "<h6 class="principal-personalizado-paragrafo"> Lorem ipsum é um texto fictício comumente usado para demonstrar elementos gráficos de
+            <span>documento ou apresentação visual.</span>
          </h6>
             <!--cabecalho introduçao recursos personalizados-->
 
@@ -117,6 +136,8 @@
             <h3 class="personalizado-texto-title"> Bem organizado </h3>
             <h6 class="personalizado-texto-paragrafo"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</h6>
            </div>
+           
+             <!-- fim titulo e paragrafos recursos container 2-->
 
 
           
